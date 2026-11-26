@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 90" width="460" height="90">
+  <defs>
+    <linearGradient id="shieldGradW" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E3E6B" />
+      <stop offset="100%" stop-color="#2455A4" />
+    </linearGradient>
+    <linearGradient id="goldGradW" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCE082" />
+      <stop offset="50%" stop-color="#E6B64C" />
+      <stop offset="100%" stop-color="#C99832" />
+    </linearGradient>
+  </defs>
+
+  <!-- Left Crest / Emblem -->
+  <g transform="translate(10, 5) scale(0.8)">
+    <circle cx="50" cy="50" r="47" fill="none" stroke="url(#goldGradW)" stroke-width="2.5" />
+    <circle cx="50" cy="50" r="44" fill="#0E1D33" />
+    <path d="M 30 25 L 70 25 C 70 50 65 68 50 78 C 35 68 30 50 30 25 Z" fill="url(#shieldGradW)" stroke="url(#goldGradW)" stroke-width="1.8" />
+    <path d="M 50 32 L 50 27 M 43 34 L 39 31 M 57 34 L 61 31" stroke="url(#goldGradW)" stroke-width="1.5" stroke-linecap="round" />
+    <path d="M 50 48 Q 43 43 36 45 L 36 56 Q 43 54 50 58 Q 57 54 64 56 L 64 45 Q 57 43 50 48 Z" fill="#FFFFFF" stroke="url(#goldGradW)" stroke-width="1.2" />
+    <line x1="50" y1="48" x2="50" y2="58" stroke="#142B4A" stroke-width="1.2" />
+    <polygon points="50,62 51.5,65.5 55,65.8 52.3,68.2 53.1,72 50,70 46.9,72 47.7,68.2 45,65.8 48.5,65.5" fill="url(#goldGradW)" />
+    <path d="M 22 81 Q 50 74 78 81 L 74 88 Q 50 82 26 88 Z" fill="url(#goldGradW)" />
+    <text x="50" y="85.5" font-family="'Open Sans', sans-serif" font-size="5.5" font-weight="900" fill="#142B4A" text-anchor="middle">DPS</text>
+  </g>
+
+  <!-- Text Hierarchy -->
+  <g transform="translate(105, 0)">
+    <text x="0" y="36" font-family="'Open Sans', sans-serif" font-size="28" font-weight="900" fill="#FFFFFF" letter-spacing="1.5">
+      DPS <tspan fill="#60A5FA">INTERNATIONAL</tspan>
+    </text>
+    <text x="0" y="58" font-family="'Open Sans', sans-serif" font-size="20" font-weight="800" fill="#E6B64C" letter-spacing="3.5">
+      ACADEMY
+    </text>
+    <line x1="0" y1="65" x2="340" y2="65" stroke="#334155" stroke-width="1" />
+    <text x="0" y="78" font-family="'Open Sans', sans-serif" font-size="10.5" font-weight="600" fill="#94A3B8" letter-spacing="1">
+      BHINGARI BAZAR, DEORIA, UTTAR PRADESH
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#142B4A" />
+      <stop offset="100%" stop-color="#2455A4" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCE082" />
+      <stop offset="50%" stop-color="#E6B64C" />
+      <stop offset="100%" stop-color="#C99832" />
+    </linearGradient>
+  </defs>
+  <!-- Outer Gold Ring -->
+  <circle cx="50" cy="50" r="47" fill="none" stroke="url(#goldGrad)" stroke-width="2.5" />
+  <circle cx="50" cy="50" r="44" fill="#142B4A" />
+  
+  <!-- Inner Shield -->
+  <path d="M 30 25 L 70 25 C 70 50 65 68 50 78 C 35 68 30 50 30 25 Z" fill="url(#shieldGrad)" stroke="url(#goldGrad)" stroke-width="1.8" />
+  
+  <!-- Rising Sun Rays / Torch -->
+  <path d="M 50 32 L 50 27 M 43 34 L 39 31 M 57 34 L 61 31" stroke="url(#goldGrad)" stroke-width="1.5" stroke-linecap="round" />
+  
+  <!-- Open Book -->
+  <path d="M 50 48 Q 43 43 36 45 L 36 56 Q 43 54 50 58 Q 57 54 64 56 L 64 45 Q 57 43 50 48 Z" fill="#FFFFFF" stroke="url(#goldGrad)" stroke-width="1.2" />
+  <line x1="50" y1="48" x2="50" y2="58" stroke="#142B4A" stroke-width="1.2" />
+
+  <!-- Stars of Excellence -->
+  <polygon points="50,62 51.5,65.5 55,65.8 52.3,68.2 53.1,72 50,70 46.9,72 47.7,68.2 45,65.8 48.5,65.5" fill="url(#goldGrad)" />
+  <polygon points="40,60 41,62.5 43.5,62.7 41.5,64.5 42.1,67 40,65.5 37.9,67 38.5,64.5 36.5,62.7 39,62.5" fill="url(#goldGrad)" />
+  <polygon points="60,60 61,62.5 63.5,62.7 61.5,64.5 62.1,67 60,65.5 57.9,67 58.5,64.5 56.5,62.7 59,62.5" fill="url(#goldGrad)" />
+
+  <!-- DPS Ribbon / Banner at Bottom -->
+  <path d="M 22 81 Q 50 74 78 81 L 74 88 Q 50 82 26 88 Z" fill="url(#goldGrad)" />
+  <text x="50" y="85.5" font-family="'Open Sans', sans-serif" font-size="5.5" font-weight="900" fill="#142B4A" text-anchor="middle" letter-spacing="1">DPS ACADEMY</text>
+</svg>
