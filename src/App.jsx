@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
+import { HashRouter, Routes, Route, useLocation } from 'react-router-dom';
 import Header from './components/common/Header';
 import Footer from './components/common/Footer';
 import AdmissionModal from './components/common/AdmissionModal';
@@ -38,7 +38,7 @@ export default function App() {
   const [admissionModalOpen, setAdmissionModalOpen] = useState(false);
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <ScrollToTop />
       <div className="min-h-screen flex flex-col bg-white text-brand-charcoal pb-16 xl:pb-0 overflow-x-hidden">
         {/* Header with TopBar & Sticky Navbar (Strictly NO login) */}
@@ -98,6 +98,6 @@ export default function App() {
           onClose={() => setAdmissionModalOpen(false)}
         />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }

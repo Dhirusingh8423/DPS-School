@@ -31,7 +31,7 @@ export default function Footer() {
             <Link to="/" className="inline-block">
               <div className="flex items-center gap-3">
                 <img
-                  src="/logo-icon.svg"
+                  src="./logo-icon.svg"
                   alt="DPS International Academy"
                   className="w-11 h-11 sm:w-12 sm:h-12 object-contain shrink-0"
                 />

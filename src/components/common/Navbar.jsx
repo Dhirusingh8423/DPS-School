@@ -94,7 +94,7 @@ export default function Navbar({ onOpenAdmission }) {
               className="flex items-center gap-2.5 sm:gap-3 shrink-0 group py-1"
             >
               <img
-                src="/logo-icon.svg"
+                src="./logo-icon.svg"
                 alt="DPS Emblem"
                 className="w-10 h-10 sm:w-11 sm:h-11 md:w-12 md:h-12 object-contain transition-transform duration-300 group-hover:scale-105 shrink-0"
               />
@@ -212,7 +212,7 @@ export default function Navbar({ onOpenAdmission }) {
               {/* Drawer Header */}
               <div className="p-3.5 sm:p-4 bg-brand-navy text-white flex items-center justify-between border-b-2 border-brand-gold">
                 <div className="flex items-center gap-2.5">
-                  <img src="/logo-icon.svg" alt="DPS" className="w-9 h-9 sm:w-10 sm:h-10 object-contain shrink-0" />
+                  <img src="./logo-icon.svg" alt="DPS" className="w-9 h-9 sm:w-10 sm:h-10 object-contain shrink-0" />
                   <div>
                     <div className="flex items-baseline gap-1">
                       <span className="font-black text-sm tracking-tight text-white">DPS</span>

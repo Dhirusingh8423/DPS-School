@@ -192,7 +192,7 @@ export default function AboutPage({ onOpenAdmission }) {
 
                   <div className="text-center p-6 sm:p-8 bg-brand-soft rounded-lg border border-slate-200">
                     <img
-                      src="/logo-icon.svg"
+                      src="./logo-icon.svg"
                       alt="DPS Emblem"
                       className="w-16 h-16 sm:w-24 sm:h-24 mx-auto mb-3 sm:mb-4"
                     />
